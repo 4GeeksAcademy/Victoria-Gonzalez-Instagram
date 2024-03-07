@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", serif;
+    background: black;
+  }
+
+.post {
+background: white;
+width: 500px;
+height: auto;
+margin: auto;
+margin-top: 20px;
+}
+
+img {
+    width: 100%;
+}
+.header {
+    display: flex; justify-content: space-between;
+  padding: 15px; align-items: center;
+}
+.brand {
+    display: flex;
+    width: 30px;
+}
+.icon {
+    width: 30px;
+  }
+
+.title {
+    margin: 0; padding: 0;
+}
+.footer {
+    display: flex; justify-content: space-between;
+    padding: 15px; 
+}
+
+.text {
+    padding: 15px; 
+}
+.text p {
+    padding-bottom: 15px;
+}
